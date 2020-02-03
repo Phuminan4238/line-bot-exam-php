@@ -11,16 +11,14 @@
 //   });
 // });
 $(document).ready(function(){
-  $("button").click(function(){
+$("button").click(function(){
 $.ajax({
-    type: 'POST',
-    dataType: "json",
+    
     url:'webhooks.php',
     success: function(data)
     {
-     try {
-        data = JSON.parse(data);
-      }catch(e) {}
+    
+      
       console.log(data);
       $("#div1").html(result);
     }
