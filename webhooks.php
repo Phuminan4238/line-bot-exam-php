@@ -51,10 +51,4 @@ if (!is_null($events['events'])) {
 	}
 }
 
-<script type="text/javascript">
-
-
-var str = "<?php echo $event['message']['text']?>"; // "A string here"
-console.log(str);
-</script>
 echo "OK";
