@@ -22,7 +22,7 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			$messages = [
-				'type' => 'text',3ALKAbKFoGuJyJnoDdn0HeyfbxLFtEXBKiC0lFeoNl
+				'type' => 'text',
 				'text' => $text
 			];
 
