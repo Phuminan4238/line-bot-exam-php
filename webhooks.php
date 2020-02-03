@@ -44,9 +44,9 @@ if (!is_null($events['events'])) {
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 			$result = curl_exec($ch);
+			echo json_encode($textMessage);
 			curl_close($ch);
-			echo $textMessage;
-			echo $result . "\r\n";
+			
 		}
 	}
 }
