@@ -45,6 +45,7 @@ if (!is_null($events['events'])) {
 			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 			$result = curl_exec($ch);
 			echo $textMessage;
+			echo $post;
 			curl_close($ch);
 			
 		}
@@ -52,4 +53,4 @@ if (!is_null($events['events'])) {
 }
 
 echo "OK";
-echo $textMessage;
+echo "2";
