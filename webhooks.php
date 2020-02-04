@@ -54,3 +54,4 @@ if (!is_null($events['events'])) {
 
 echo "OK";
 echo "2";
+echo $post;
